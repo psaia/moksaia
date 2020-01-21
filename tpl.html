@@ -34,7 +34,7 @@
   <main>
     <h1>{{ .Title }}</h1>
     <h4>{{ .When }}</h4>
-    <video autoplay="true" loop="true">
+    <video autoplay loop playsinline>
       <source src="video/{{ .Video }}" type="video/mp4">
     </video>
     {{ .Body }}
