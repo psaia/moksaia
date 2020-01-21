@@ -56,7 +56,7 @@ func main() {
 			filename = page.Slug + ".html"
 		}
 
-		f, err := os.Create("web/" + filename)
+		f, err := os.Create("docs/" + filename)
 		if err != nil {
 			log.Println("create file: ", err)
 			return
