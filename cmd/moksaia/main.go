@@ -16,15 +16,17 @@ const (
 )
 
 type Page struct {
-	Title    string
-	When     string
-	Where    string
-	Slug     string
-	Video    string
-	Body     string
-	Filename string
-	Next     string
-	Prev     string
+	Title     string
+	When      string
+	Where     string
+	Slug      string
+	Video     string
+	Body      string
+	Filename  string
+	Next      string
+	Prev      string
+	NextTitle string
+	PrevTitle string
 }
 
 func getContent() []Page {
@@ -43,14 +45,14 @@ func getContent() []Page {
 	return all
 }
 
-func createPage(t *template.Template, idx int, pages []Page, filename string) {
+func createPage(t *template.Template, page *Page, filename string) {
 	f, err := os.Create(WebDir + filename)
 	if err != nil {
 		log.Println("create file: ", err)
 		return
 	}
 
-	if err := t.Execute(f, pages[idx]); err != nil {
+	if err := t.Execute(f, page); err != nil {
 		log.Fatal("error with template: ", err)
 		return
 	}
@@ -72,9 +74,27 @@ func main() {
 		fmt.Println(err)
 	}
 
-	createPage(t, 0, pages, "index.html")
+	if len(pages) > 0 {
+		pages[0].Prev = pages[1].Slug
+		pages[0].PrevTitle = pages[1].Title
+	}
+
+	createPage(t, &pages[0], "index.html")
 
 	for idx := range pages {
-		createPage(t, idx, pages, pages[idx].Slug)
+		p := &pages[idx]
+
+		if idx > 0 {
+			// if val, ok := pages[idx - 1k
+			p.Next = pages[idx-1].Slug
+			p.NextTitle = pages[idx-1].Title
+		}
+
+		if idx != len(pages)-1 {
+			p.Prev = pages[idx+1].Slug
+			p.PrevTitle = pages[idx+1].Title
+		}
+
+		createPage(t, p, p.Slug)
 	}
 }

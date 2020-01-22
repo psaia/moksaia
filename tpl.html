@@ -7,48 +7,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.typekit.net/qhm7soq.css">
 <style>
-  body, html { margin: 0; padding: 0; }
+  body, html { margin: 0; padding: 0; height: auto; min-height: 100vh; overflow-x: hidden; }
+  body { display: flex; flex-direction: column; justify-content: space-between; }
+
   h1, h4, p {
     font-family: poynter-oldstyle-display, serif;
     font-weight: 400;
     font-style: normal;
     margin: 0;
-    line-height: 1.5;
   }
-  video {
-    width: 100%;
-    height: auto;
-    margin: 30px 0;
-  }
-  main {
-    max-width: 750px;
-    margin: 30px auto;
-  }
-  .chars { padding: 0 10% }
-  p { margin-bottom: 0; font-size: 18px; }
-  aside { padding: 20px 0; }
-  .back { float: left; }
-  .forward { float: right; }
+  h1 { margin-bottom: 6px; font-size: 25px; font-weight: 700; }
+  h4 { font-size: 16px; }
+  p { margin-bottom: 0; font-size: 16px; line-height: 1.2; margin-bottom: 15px; }
+  .back, .forward { margin: 0 6px; font-family: "Courier New", Courier, monospace; }
+
+  header { padding: 20px 20px 0; text-align: center; }
+
+  main .video-hold { margin: 20px auto; max-width: 540px;  }
+  main video { width: 100%; height: auto; }
+  main .chars { max-width: 500px; margin: 0 auto; padding: 0 20px; }
+
+  footer { text-align: center; padding: 20px 0; }
+  footer aside { padding: 5px 0; }
+  footer small { font-family: poynter-oldstyle-display-nar, serif; font-weight: 400; }
+
 </style>
 </head>
 <body>
+  <header>
+    <h1>{{ .Title }}</h1>
+    <h4><time>{{ .When }}</time> // <span>{{ .Where }}</span></h4>
+  </header>
+
   <main>
-    <div class="chars">
-      <h1>{{ .Title }}</h1>
-      <h4>{{ .When }} // {{ .Where }}</h4>
+    <div class="video-hold">
+      <video autoplay loop playsinline muted>
+        <source src="video/{{ .Video }}" type="video/mp4">
+      </video>
     </div>
-    <video autoplay loop playsinline muted>
-      <source src="video/{{ .Video }}" type="video/mp4">
-    </video>
     <div class="chars">
       {{ .Body }}
     </div>
-    <!--
-    <aside>
-      <a class="back" href="">« Austin Texas Sun</a>
-      <a class="forward" href="">Office Desk Love »</a>
-    </aside>
-    -->
   </main>
+
+  <footer>
+    <aside>
+      {{if .Prev}}
+      <a class="back" href="{{ .Prev }}" title="{{ .PrevTitle }}">« Previous</a>
+      {{ end }}
+      {{if .Next}}
+      <a class="forward" href="{{ .Next }}" title="{{ .NextTitle }}">Next »</a>
+      {{ end }}
+    </aside>
+    <small>moksaia</small>
+  </footer>
 </body>
 </html>

@@ -7,48 +7,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.typekit.net/qhm7soq.css">
 <style>
-  body, html { margin: 0; padding: 0; }
+  body, html { margin: 0; padding: 0; height: auto; min-height: 100vh; overflow-x: hidden; }
+  body { display: flex; flex-direction: column; justify-content: space-between; }
+
   h1, h4, p {
     font-family: poynter-oldstyle-display, serif;
     font-weight: 400;
     font-style: normal;
     margin: 0;
-    line-height: 1.5;
   }
-  video {
-    width: 100%;
-    height: auto;
-    margin: 30px 0;
-  }
-  main {
-    max-width: 750px;
-    margin: 30px auto;
-  }
-  .chars { padding: 0 10% }
-  p { margin-bottom: 0; font-size: 18px; }
-  aside { padding: 20px 0; }
-  .back { float: left; }
-  .forward { float: right; }
+  h1 { margin-bottom: 6px; font-size: 25px; font-weight: 700; }
+  h4 { font-size: 16px; }
+  p { margin-bottom: 0; font-size: 16px; line-height: 1.2; margin-bottom: 15px; }
+  .back, .forward { margin: 0 6px; font-family: "Courier New", Courier, monospace; }
+
+  header { padding: 20px 20px 0; text-align: center; }
+
+  main .video-hold { margin: 20px auto; max-width: 540px;  }
+  main video { width: 100%; height: auto; }
+  main .chars { max-width: 500px; margin: 0 auto; padding: 0 20px; }
+
+  footer { text-align: center; padding: 20px 0; }
+  footer aside { padding: 5px 0; }
+  footer small { font-family: poynter-oldstyle-display-nar, serif; font-weight: 400; }
+
 </style>
 </head>
 <body>
+  <header>
+    <h1>the night comes before i'm ready</h1>
+    <h4><time>January 20, 2020</time> // <span>East Austin</span></h4>
+  </header>
+
   <main>
-    <div class="chars">
-      <h1>the night comes before i'm ready</h1>
-      <h4>January 20, 2020 // East Austin</h4>
+    <div class="video-hold">
+      <video autoplay loop playsinline muted>
+        <source src="video/fan.mp4" type="video/mp4">
+      </video>
     </div>
-    <video autoplay loop playsinline muted>
-      <source src="video/fan.mp4" type="video/mp4">
-    </video>
     <div class="chars">
       <p>i'd stay up all night with you</p><p>drink. laugh, play, make love with you</p> <p>somewhere, somehow,</p><p>that part of me is out there</p> <p>i call her name when i wake up in the middle of the darkness</p> <p>but no one responds</p> <p>i look over, call your name,</p> <p>gently,</p> <p>but you're sleeping and i can't stand to wake you</p> <p>i dream of her most at night</p> <p>because i feel her running</p> <p>free</p> <p>a wild child</p> <p>it breaks me to be apart from her</p> <p>but every night i wake up</p> <p>while it is still dark</p> <p>before i am ready</p> <p>i feel her calling to me</p> <p>remind me</p> <p>she'll be back</p> <p>as long as i keep the light on</p>
     </div>
-    <!--
-    <aside>
-      <a class="back" href="">« Austin Texas Sun</a>
-      <a class="forward" href="">Office Desk Love »</a>
-    </aside>
-    -->
   </main>
+
+  <footer>
+    <aside>
+      
+      
+      <a class="forward" href="01-21-2020.html" title="separate ways">Next »</a>
+      
+    </aside>
+    <small>moksaia</small>
+  </footer>
 </body>
 </html>
