@@ -3,61 +3,67 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>separate ways</title>
+  <title>onward</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.typekit.net/qhm7soq.css">
-<style>
-  body, html { margin: 0; padding: 0; height: auto; min-height: 100vh; overflow-x: hidden; }
-  body { display: flex; flex-direction: column; justify-content: space-between; }
+  <style>
+    body, html { margin: 0; padding: 0; height: auto; min-height: 100vh; overflow-x: hidden }
+    body { display: flex; flex-direction: column; justify-content: space-between }
 
-  h1, h4, p {
-    font-family: poynter-oldstyle-display, serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-  }
-  h1 { margin-bottom: 6px; font-size: 25px; font-weight: 700; }
-  h4 { font-size: 16px; }
-  p { margin-bottom: 0; font-size: 16px; line-height: 1.2; margin-bottom: 15px; }
-  .back, .forward { margin: 0 6px; font-family: "Courier New", Courier, monospace; }
+    h1, h4, p {
+      font-family: poynter-oldstyle-display, serif;
+      font-weight: 400;
+      font-style: normal;
+      margin: 0;
+    }
+    h1 { margin-bottom: 6px; font-size: 25px; font-weight: 700 }
+    h4 { font-size: 16px }
+    p { margin-bottom: 0; font-size: 16px; line-height: 1.2; margin-bottom: 15px }
+    .back, .forward { margin: 0 6px; font-size: 16px; font-family: "Courier New", Courier, monospace }
 
-  header { padding: 20px 20px 0; text-align: center; }
+    header { padding: 20px 20px 0; text-align: center; }
 
-  main .video-hold { margin: 20px auto; max-width: 540px;  }
-  main video { width: 100%; height: auto; }
-  main .chars { max-width: 500px; margin: 0 auto; padding: 0 20px; }
+    main { flex-grow: 2 }
+    main .video-hold { margin: 20px auto; max-width: 570px }
+    main video { width: 100%; height: auto; border-radius: 10px; overflow: hidden }
+    main .chars { max-width: 500px; margin: 0 auto; padding: 0 20px }
 
-  footer { text-align: center; padding: 20px 0; }
-  footer aside { padding: 5px 0; }
-  footer small { font-family: poynter-oldstyle-display-nar, serif; font-weight: 400; }
-
-</style>
+    footer { text-align: center; padding: 20px 0 }
+    footer aside { padding: 5px 0 }
+    footer small { font-family: poynter-oldstyle-display-nar, serif; font-weight: 400 }
+  </style>
 </head>
 <body>
   <header>
-    <h1>separate ways</h1>
-    <h4><time>January 21, 2020</time> // <span>East Austin</span></h4>
+    <h1>onward</h1>
+    <h4><time>January 22, 2020</time> // <span>East Austin</span></h4>
   </header>
 
   <main>
     <div class="video-hold">
       <video autoplay loop playsinline muted>
-        <source src="video/railroad.mp4" type="video/mp4">
+        <source src="video/treelights.mp4" type="video/mp4">
       </video>
     </div>
     <div class="chars">
-      <p>we were going separate ways</p> <p>when we first met</p> <p>neither one of us with a destination</p> <p>carrying some vague idea of manifestation</p> <p>we were good at mourning</p> <p>the people, places, opportunities</p> <p>that passed us by</p> <p>we were great at belated hellos and half-hearted goodbyes</p> <p>we were in pursuit of the movement</p> <p>the way she beckoned</p> <p>was just enough to justify</p> <p>getting up and going our separate ways</p> <p>again</p>
+      <p>i will carry on</p><p>even though i am not sure</p><p>i'll put you on my back</p><p>even though i'm sure it is unsafe</p><p>i will carry on</p>
     </div>
   </main>
 
   <footer>
     <aside>
-      
-      <a class="back" href="01-20-2020.html" title="the night comes before i'm ready">« Previous</a>
-      
+      <a class="back" href="01-21-2020.html" title="separate ways">« Previous</a>
       
     </aside>
     <small>moksaia</small>
   </footer>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156821344-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-156821344-1');
+  </script>
 </body>
 </html>
