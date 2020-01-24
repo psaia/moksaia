@@ -20,7 +20,7 @@
     h1 { margin-bottom: 6px; font-size: 25px; font-weight: 700 }
     h4 { font-size: 16px }
     p { margin-bottom: 0; font-size: 16px; line-height: 1.2; margin-bottom: 15px }
-    .back, .forward { margin: 0 6px; font-size: 16px; font-family: "Courier New", Courier, monospace }
+    .back, .forward { margin: 0 6px; text-decoration: none; color: #D96100; font-weight: 700; font-size: 13px; font-family: "Courier New", Courier, monospace }
 
     header { padding: 20px 20px 0; text-align: center }
 
@@ -28,10 +28,11 @@
     main .video-hold { margin: 20px auto; max-width: 562px }
     main video { width: 100%; height: auto; border-radius: 10px; overflow: hidden }
     main .chars { max-width: 500px; margin: 0 auto; padding: 0 20px }
+    @media screen and (max-width: 600px) and (orientation: portrait) { main video { border-radius: 0 } }
 
     footer { text-align: center; padding: 20px 0 }
     footer aside { padding: 5px 0 }
-    footer small { font-family: poynter-oldstyle-display-nar, serif; font-weight: 400 }
+    footer small { font-family: poynter-oldstyle-display-nar, serif; font-size: 13px; font-weight: 400 }
   </style>
 </head>
 <body>
