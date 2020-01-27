@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>trees be blowin</title>
+  <title>{{ .Title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preload" href="video/treesinwind.mp4" as="video" type="video/mp4">
+  <link rel="preload" href="video/{{ .Video }}" as="video" type="video/mp4">
   <link rel="stylesheet" href="https://use.typekit.net/qhm7soq.css">
   <style>
     body, html { margin: 0; padding: 0; height: auto; min-height: 100vh; overflow-x: hidden }
@@ -16,6 +16,7 @@
     h4 { font-size: 16px }
     p { margin-bottom: 0; font-size: 16px; line-height: 1.2; margin-bottom: 15px }
     .back, .forward { margin: 0 6px; text-decoration: none; color: #D96100; font-weight: 700; font-size: 13px; font-family: "Courier New", Courier, monospace }
+    .archives { margin: 8px 0 0; display: block; text-decoration: none; color: #777; font-weight: 700; font-size: 13px; font-family: "Courier New", Courier, monospace }
 
     header { padding: 20px 20px 0; text-align: center }
 
@@ -32,25 +33,26 @@
 </head>
 <body>
   <header>
-    <h1>trees be blowin</h1>
-    <h4><time>January 24, 2020</time> // <span>East Austin</span></h4>
+    <h1>{{ .Title }}</h1>
+    <h4><time>{{ .When }}</time> // <span>{{ .Where }}</span></h4>
   </header>
 
   <main>
     <div class="video-hold">
       <video autoplay loop playsinline muted>
-        <source src="video/treesinwind.mp4" type="video/mp4">
+        <source src="video/{{ .Video }}" type="video/mp4">
       </video>
     </div>
     <div class="chars">
-      <p>it had been a while since we saw the rain</p> <p>she started soft, a gentle fall</p> <p>came down hard, made us question it all</p>
+      {{ .Body }}
     </div>
   </main>
 
   <footer>
     <aside>
-      <a class="back" href="01-23-2020.html" title="drizzle">« Previous</a>
-      <a class="forward" href="01-25-2020.html" title="what lies underneath">Next »</a>
+      {{if .Prev}}<a class="back" href="{{ .Prev }}" title="{{ .PrevTitle }}">« previous</a>{{ end }}
+      {{if .Next}}<a class="forward" href="{{ .Next }}" title="{{ .NextTitle }}">next »</a>{{ end }}
+      <a href="/archive.html" class="archives">view archives</a>
     </aside>
     <small>moksaia</small>
   </footer>

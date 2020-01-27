@@ -11,7 +11,8 @@ import (
 
 const (
 	ContentFile = "./content.json"
-	TplFile     = "./tpl.html"
+	TplFile     = "./tpl.poem.html"
+	ArchiveFile = "./tpl.archive.html"
 	WebDir      = "docs/"
 )
 
@@ -27,6 +28,10 @@ type Page struct {
 	Prev      string
 	NextTitle string
 	PrevTitle string
+}
+
+type AllPages struct {
+	Pages []Page
 }
 
 func getContent() []Page {
@@ -45,7 +50,7 @@ func getContent() []Page {
 	return all
 }
 
-func createPage(t *template.Template, page *Page, filename string) {
+func createPage(t *template.Template, page interface{}, filename string) {
 	f, err := os.Create(WebDir + filename)
 	if err != nil {
 		log.Println("create file: ", err)
@@ -60,32 +65,38 @@ func createPage(t *template.Template, page *Page, filename string) {
 	_ = f.Close()
 }
 
-func main() {
-	pages := getContent()
-
-	tplFile, err := ioutil.ReadFile(TplFile)
+func createTpl(file string) *template.Template {
+	contents, err := ioutil.ReadFile(file)
 	if err != nil {
-		log.Println("create file: ", err)
-		return
+		log.Fatal(err)
 	}
 
-	t, err := template.New("p").Parse(string(tplFile))
+	t, err := template.New("p").Parse(string(contents))
 	if err != nil {
 		fmt.Println(err)
 	}
+
+	return t
+}
+
+func main() {
+	pages := getContent()
+
+	poemTpl := createTpl(TplFile)
+	archiveTpl := createTpl(ArchiveFile)
 
 	if len(pages) > 0 {
 		pages[0].Prev = pages[1].Slug
 		pages[0].PrevTitle = pages[1].Title
 	}
 
-	createPage(t, &pages[0], "index.html")
+	createPage(archiveTpl, &pages, "archive.html")
+	createPage(poemTpl, &pages[0], "index.html")
 
 	for idx := range pages {
 		p := &pages[idx]
 
 		if idx > 0 {
-			// if val, ok := pages[idx - 1k
 			p.Next = pages[idx-1].Slug
 			p.NextTitle = pages[idx-1].Title
 		}
@@ -95,6 +106,6 @@ func main() {
 			p.PrevTitle = pages[idx+1].Title
 		}
 
-		createPage(t, p, p.Slug)
+		createPage(poemTpl, p, p.Slug)
 	}
 }

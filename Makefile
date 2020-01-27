@@ -9,4 +9,4 @@ gen:
 clean:
 	rm moksaia && rm docs/*.html
 
-.PHONY: gen clean
+.PHONY: gen clean gen
