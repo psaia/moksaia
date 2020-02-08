@@ -7,6 +7,8 @@ import (
 	"log"
 	"os"
 	"text/template"
+
+	strip "github.com/grokify/html-strip-tags-go"
 )
 
 const (
@@ -23,6 +25,7 @@ type Page struct {
 	Slug      string
 	Video     string
 	Body      string
+	BodyText  string
 	Filename  string
 	Next      string
 	Prev      string
@@ -81,7 +84,6 @@ func createTpl(file string) *template.Template {
 
 func main() {
 	pages := getContent()
-
 	poemTpl := createTpl(TplFile)
 	archiveTpl := createTpl(ArchiveFile)
 
@@ -89,6 +91,8 @@ func main() {
 		pages[0].Prev = pages[1].Slug
 		pages[0].PrevTitle = pages[1].Title
 	}
+
+	pages[0].BodyText = strip.StripTags(pages[0].Body)
 
 	createPage(archiveTpl, &pages, "archive.html")
 	createPage(poemTpl, &pages[0], "index.html")
@@ -105,6 +109,8 @@ func main() {
 			p.Prev = pages[idx+1].Slug
 			p.PrevTitle = pages[idx+1].Title
 		}
+
+		p.BodyText = strip.StripTags(p.Body)
 
 		createPage(poemTpl, p, p.Slug)
 	}
