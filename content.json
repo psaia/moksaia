@@ -5,15 +5,25 @@
     "where": "Maryland + South Carolina",
     "slug": "03-30-2020.html",
     "video": "dad-fishing",
-    "body": "TODO"
+    "body": "TODO",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "untitled",
     "when": "march 17, 2020",
     "where": "Maryland + South Carolina",
     "slug": "03-17-2020.html",
+    "audio": "untitled",
     "video": "karen-standing",
-    "body": "<p>The sun is coming back out</p> <p>A sweet summer day opens in me</p> <p>The feeling of sun on my bare arms and shoulders</p> <p>Is mother nature&rsquo;s</p> <p>Most gentle gift</p> <p>even as we</p> <p>Burn her forests</p> <p>pollute her oceans</p> <p>She will find a way to shine</p>"
+    "body": "<p>The sun is coming back out</p> <p>A sweet summer day opens in me</p> <p>The feeling of sun on my bare arms and shoulders</p> <p>Is mother nature&rsquo;s</p> <p>Most gentle gift</p> <p>even as we</p> <p>Burn her forests</p> <p>pollute her oceans</p> <p>She will find a way to shine</p>",
+    "who": [
+      ["Images", "Pete Saia", "http://petesaia.com"],
+      ["Sounds", "Rafael Goulart", "https://github.com/rafaelgou"],
+      ["Words", "Karen Mok", "http://karenmok.com"]
+    ]
   },
   {
     "title": "big ocean",
@@ -21,7 +31,11 @@
     "where": "Charleston, South Carolina",
     "slug": "03-01-2020.html",
     "video": "boardwalk",
-    "body": "<p>I used to be scared of the ocean</p> <p>its bigness seemed to</p> <p>overwhelm</p> <p>even the largest parts of myself</p> <p>i never walked too close to the waves</p> <p>until one day</p> <p>i dipped my toes into the warm water</p> <p>i felt the ocean</p> <p>inside me</p> <p>big and uninterrupted</p> <p>stretching from head to toe</p> <p>sweeping the old fears away</p> <p>letting me drift</p> <p>peacefully</p> <p>back to myself</p>"
+    "body": "<p>I used to be scared of the ocean</p> <p>its bigness seemed to</p> <p>overwhelm</p> <p>even the largest parts of myself</p> <p>i never walked too close to the waves</p> <p>until one day</p> <p>i dipped my toes into the warm water</p> <p>i felt the ocean</p> <p>inside me</p> <p>big and uninterrupted</p> <p>stretching from head to toe</p> <p>sweeping the old fears away</p> <p>letting me drift</p> <p>peacefully</p> <p>back to myself</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "when we met",
@@ -29,7 +43,11 @@
     "where": "Downtown Austin + Charleston",
     "slug": "02-14-2020.html",
     "video": "curtins",
-    "body": "<p>When we met</p> <p>You pulled the blinds back</p> <p>And let in the sun</p> <p>At first I was unsure</p> <p>What to do with so much light</p> <p>So you took some in the palm of your hand</p> <p>Carried it to the door</p> <p>And let it out, gently, into the world</p> <p>We stood in the doorsill</p> <p>Watching the light move into the night</p> <p>At times getting lost in the shadows</p> <p>I was scared for the light</p> <p>But you looked at me, and smiled,</p> <p>Confident,</p> <p>The light would find a way</p>"
+    "body": "<p>When we met</p> <p>You pulled the blinds back</p> <p>And let in the sun</p> <p>At first I was unsure</p> <p>What to do with so much light</p> <p>So you took some in the palm of your hand</p> <p>Carried it to the door</p> <p>And let it out, gently, into the world</p> <p>We stood in the doorsill</p> <p>Watching the light move into the night</p> <p>At times getting lost in the shadows</p> <p>I was scared for the light</p> <p>But you looked at me, and smiled,</p> <p>Confident,</p> <p>The light would find a way</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "freedom",
@@ -37,7 +55,11 @@
     "where": "East Austin",
     "slug": "02-11-2020.html",
     "video": "screenrain",
-    "body": "<p>we talked about getting away</p> <p>living a glorious life on the road</p><p>a single suitcase shared</p> <p>we couldn&rsquo;t need much more</p> <p>to find the freedom we idolized</p> <p>we stopped at abandoned gas stations</p> <p>small towns and rv parks</p> <p>we passed through open empty fields</p> <p>cities that scraped the sky</p> <p>we rolled the windows down&nbsp;</p> <p>turned the music up&nbsp;</p> <p>leaned our heads out the window</p> <p>took big gulps off air</p> <p>just to taste the freedom we idolized</p> <p>we kept driving&nbsp;</p> <p>unaware if we were searching for a destination</p> <p>or a feeling</p> <p>we weren&rsquo;t concerned with departures or arrivals</p> <p>content with the in between moments</p> <p>the closest we&rsquo;d get</p> <p>to the freedom we idolized</p>"
+    "body": "<p>we talked about getting away</p> <p>living a glorious life on the road</p><p>a single suitcase shared</p> <p>we couldn&rsquo;t need much more</p> <p>to find the freedom we idolized</p> <p>we stopped at abandoned gas stations</p> <p>small towns and rv parks</p> <p>we passed through open empty fields</p> <p>cities that scraped the sky</p> <p>we rolled the windows down&nbsp;</p> <p>turned the music up&nbsp;</p> <p>leaned our heads out the window</p> <p>took big gulps off air</p> <p>just to taste the freedom we idolized</p> <p>we kept driving&nbsp;</p> <p>unaware if we were searching for a destination</p> <p>or a feeling</p> <p>we weren&rsquo;t concerned with departures or arrivals</p> <p>content with the in between moments</p> <p>the closest we&rsquo;d get</p> <p>to the freedom we idolized</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "anonymous",
@@ -45,7 +67,11 @@
     "where": "Southwest Texas",
     "slug": "02-07-2020.html",
     "video": "windmill",
-    "body": "<p>i grew up watching texas on the tv</p> <p>dirt roads crossing wide open lands</p> <p>small towns marked by a single gas station</p> <p>a place to be anonymous</p> <p>to rest&nbsp;</p> <p>after chasing lights and libations</p> <p>i could be anyone there</p> <p>the girl i always pictured</p> <p>brave, independent, free</p> <p>when i got to texas</p> <p>i tried to be all those things, and more</p> <p>a bartender on east 6th</p> <p>a waitress in sleepy alpine</p> <p>a stargazer under the marfa lights</p> <p>only to find</p> <p>i could be all those things,</p> <p>and more.</p>"
+    "body": "<p>i grew up watching texas on the tv</p> <p>dirt roads crossing wide open lands</p> <p>small towns marked by a single gas station</p> <p>a place to be anonymous</p> <p>to rest&nbsp;</p> <p>after chasing lights and libations</p> <p>i could be anyone there</p> <p>the girl i always pictured</p> <p>brave, independent, free</p> <p>when i got to texas</p> <p>i tried to be all those things, and more</p> <p>a bartender on east 6th</p> <p>a waitress in sleepy alpine</p> <p>a stargazer under the marfa lights</p> <p>only to find</p> <p>i could be all those things,</p> <p>and more.</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "upward",
@@ -53,7 +79,11 @@
     "where": "Southwest Texas",
     "slug": "02-04-2020.html",
     "video": "libraryoverlook",
-    "body": "<p>we climbed high to the top of the city</p> <p>you said we could touch the sky</p> <p>i was more hesitant</p> <p>i was looking down</p> <p>kept thinking about all i was leaving behind</p> <p>the person i was</p> <p>the things i held onto</p> <p>you were light, free, weightless</p> <p>and i envied you.</p> <p>but the feeling passed soon after it arrived</p> <p>my story is my own</p> <p>heavy as it may be</p> <p>it is the one i must love</p> <p>the one i must climb with</p> <p>the one that will carry me upward</p>"
+    "body": "<p>we climbed high to the top of the city</p> <p>you said we could touch the sky</p> <p>i was more hesitant</p> <p>i was looking down</p> <p>kept thinking about all i was leaving behind</p> <p>the person i was</p> <p>the things i held onto</p> <p>you were light, free, weightless</p> <p>and i envied you.</p> <p>but the feeling passed soon after it arrived</p> <p>my story is my own</p> <p>heavy as it may be</p> <p>it is the one i must love</p> <p>the one i must climb with</p> <p>the one that will carry me upward</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "texas",
@@ -61,7 +91,11 @@
     "where": "Southwest Texas",
     "slug": "02-03-2020.html",
     "video": "blackgold",
-    "body": "<p>they told me Texas would be a hot sweaty mess</p> <p>hard to tame, easy to get lost in</p> <p>but they didn't mention she could be cold, dry, forlorn</p> <p>her canyons vast and empty</p> <p>and in her loneliness I find my solitude</p> <p>long drives where the roads stretch into her curves</p> <p>we can't be the only ones who have gone this far west</p> <p>but the roads lay bare and empty</p> <p>the horizon calling to us</p> <p>keep driving onward</p> <p>you'll get where you'll need to go</p>"
+    "body": "<p>they told me Texas would be a hot sweaty mess</p> <p>hard to tame, easy to get lost in</p> <p>but they didn't mention she could be cold, dry, forlorn</p> <p>her canyons vast and empty</p> <p>and in her loneliness I find my solitude</p> <p>long drives where the roads stretch into her curves</p> <p>we can't be the only ones who have gone this far west</p> <p>but the roads lay bare and empty</p> <p>the horizon calling to us</p> <p>keep driving onward</p> <p>you'll get where you'll need to go</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "youth",
@@ -69,7 +103,11 @@
     "where": "East Austin",
     "slug": "01-30-2020.html",
     "video": "polesandtrees",
-    "body": "<p>the lights are bright like they'll never dim</p> <p>we're filled with a special kind of energy</p> <p>that hits when you're with the right friends at the right time</p> <p>the air balmy on our skins</p> <p>the sky blinks down at us</p> <p>tempts us to reach up and take a few stars down</p> <p>we put them in our pocket</p> <p>shining as we move from bar to apartment to dinner to bar to this moment here</p> <p>at the water's edge</p> <p>infinity stretched before us</p> <p>ours for the taking!</p>"
+    "body": "<p>the lights are bright like they'll never dim</p> <p>we're filled with a special kind of energy</p> <p>that hits when you're with the right friends at the right time</p> <p>the air balmy on our skins</p> <p>the sky blinks down at us</p> <p>tempts us to reach up and take a few stars down</p> <p>we put them in our pocket</p> <p>shining as we move from bar to apartment to dinner to bar to this moment here</p> <p>at the water's edge</p> <p>infinity stretched before us</p> <p>ours for the taking!</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "should i stay or should i go",
@@ -77,7 +115,11 @@
     "where": "East Austin",
     "slug": "01-28-2020.html",
     "video": "window",
-    "body": "<p>the window appeared in front of us</p> <p>you wanted to jump</p> <p>i wanted to stay</p> <p>your eyes already lit with the light on the other side</p> <p>i told you to go&nbsp;</p> <p>i couldn't be the one to hold you back</p> <p>you hesitate</p> <p>turn back to me</p> <p>i see the decision weighing in your eyes</p> <p>you know what they say</p> <p>about love and letting go</p>"
+    "body": "<p>the window appeared in front of us</p> <p>you wanted to jump</p> <p>i wanted to stay</p> <p>your eyes already lit with the light on the other side</p> <p>i told you to go&nbsp;</p> <p>i couldn't be the one to hold you back</p> <p>you hesitate</p> <p>turn back to me</p> <p>i see the decision weighing in your eyes</p> <p>you know what they say</p> <p>about love and letting go</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "gently",
@@ -85,7 +127,11 @@
     "where": "East Austin",
     "slug": "01-27-2020.html",
     "video": "teepee",
-    "body": "<p>we found each other gently,&nbsp;</p> <p>by chance,&nbsp;</p> <p>two leaves floating in the wind</p> <p>two stones rolling on the road</p> <p>not searching, just seeing</p> <p>each other for who we are</p>"
+    "body": "<p>we found each other gently,&nbsp;</p> <p>by chance,&nbsp;</p> <p>two leaves floating in the wind</p> <p>two stones rolling on the road</p> <p>not searching, just seeing</p> <p>each other for who we are</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "the explorer",
@@ -93,7 +139,11 @@
     "where": "East Austin",
     "slug": "01-26-2020.html",
     "video": "treesinwind",
-    "body": "<p>i caught the sunlight in your eyes</p> <p>it glowed for a moment</p> <p>opened up new universes</p> <p>entire landscapes</p> <p>uncharted territory</p> <p>and i was the explorer</p>"
+    "body": "<p>i caught the sunlight in your eyes</p> <p>it glowed for a moment</p> <p>opened up new universes</p> <p>entire landscapes</p> <p>uncharted territory</p> <p>and i was the explorer</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "what lies underneath",
@@ -101,7 +151,11 @@
     "where": "East Austin",
     "slug": "01-25-2020.html",
     "video": "babblingbrook",
-    "body": "<p>the moments in between</p> <p>the movements where we try</p> <p>we really try for each other</p> <p>push us; out of comfort</p> <p>out of safe resorvoirs&nbsp;</p> <p>and into oceans of the great unknown</p> <p>the difference i've learned</p> <p>between drifting and drowning</p> <p>has everything to do with</p> <p>what we believe lies underneath</p>"
+    "body": "<p>the moments in between</p> <p>the movements where we try</p> <p>we really try for each other</p> <p>push us; out of comfort</p> <p>out of safe resorvoirs&nbsp;</p> <p>and into oceans of the great unknown</p> <p>the difference i've learned</p> <p>between drifting and drowning</p> <p>has everything to do with</p> <p>what we believe lies underneath</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "drizzle",
@@ -109,7 +163,11 @@
     "where": "East Austin",
     "slug": "01-23-2020.html",
     "video": "showerrain",
-    "body": "<p>it had been a while since we saw the rain</p> <p>she started soft, a gentle fall</p> <p>came down hard, made us question it all</p>"
+    "body": "<p>it had been a while since we saw the rain</p> <p>she started soft, a gentle fall</p> <p>came down hard, made us question it all</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "the lights fall down",
@@ -117,7 +175,11 @@
     "where": "East Austin",
     "slug": "01-22-2020.html",
     "video": "treelights",
-    "body": "<p>the lights were scattered on the ground before us</p> <p>i ran to pick them up</p> <p>put them back in the sky</p> <p>&quot;wait&quot;, you said.</p> <p>sometimes we try so hard to make things the way we want</p> <p>but what if we left things as they are?</p> <p>maybe lights fall down sometimes</p>"
+    "body": "<p>the lights were scattered on the ground before us</p> <p>i ran to pick them up</p> <p>put them back in the sky</p> <p>&quot;wait&quot;, you said.</p> <p>sometimes we try so hard to make things the way we want</p> <p>but what if we left things as they are?</p> <p>maybe lights fall down sometimes</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "separate ways",
@@ -125,7 +187,11 @@
     "where": "East Austin",
     "slug": "01-21-2020.html",
     "video": "railroad",
-    "body": "<p>we were going separate ways</p> <p>when we first met</p> <p>neither one of us with a destination</p> <p>carrying some vague idea of manifestation</p> <p>we were good at mourning</p> <p>the people, places, opportunities</p> <p>that passed us by</p> <p>we were great at belated hellos and half-hearted goodbyes</p> <p>we were in pursuit of the movement</p> <p>the way she beckoned</p> <p>was just enough to justify</p> <p>getting up and going our separate ways</p> <p>again</p>"
+    "body": "<p>we were going separate ways</p> <p>when we first met</p> <p>neither one of us with a destination</p> <p>carrying some vague idea of manifestation</p> <p>we were good at mourning</p> <p>the people, places, opportunities</p> <p>that passed us by</p> <p>we were great at belated hellos and half-hearted goodbyes</p> <p>we were in pursuit of the movement</p> <p>the way she beckoned</p> <p>was just enough to justify</p> <p>getting up and going our separate ways</p> <p>again</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   },
   {
     "title": "the night comes before i'm ready",
@@ -133,6 +199,10 @@
     "where": "East Austin",
     "slug": "01-20-2020.html",
     "video": "fan",
-    "body": "<p>i'd stay up all night with you</p><p>drink. laugh, play, make love with you</p> <p>somewhere, somehow,</p><p>that part of me is out there</p> <p>i call her name when i wake up in the middle of the darkness</p> <p>but no one responds</p> <p>i look over, call your name,</p> <p>gently,</p> <p>but you're sleeping and i can't stand to wake you</p> <p>i dream of her most at night</p> <p>because i feel her running</p> <p>free</p> <p>a wild child</p> <p>it breaks me to be apart from her</p> <p>but every night i wake up</p> <p>while it is still dark</p> <p>before i am ready</p> <p>i feel her calling to me</p> <p>remind me</p> <p>she'll be back</p> <p>as long as i keep the light on</p>"
+    "body": "<p>i'd stay up all night with you</p><p>drink. laugh, play, make love with you</p> <p>somewhere, somehow,</p><p>that part of me is out there</p> <p>i call her name when i wake up in the middle of the darkness</p> <p>but no one responds</p> <p>i look over, call your name,</p> <p>gently,</p> <p>but you're sleeping and i can't stand to wake you</p> <p>i dream of her most at night</p> <p>because i feel her running</p> <p>free</p> <p>a wild child</p> <p>it breaks me to be apart from her</p> <p>but every night i wake up</p> <p>while it is still dark</p> <p>before i am ready</p> <p>i feel her calling to me</p> <p>remind me</p> <p>she'll be back</p> <p>as long as i keep the light on</p>",
+    "who": [
+      ["Words", "Karen Mok", "http://karenmok.com"],
+      ["Images", "Pete Saia", "http://petesaia.com"]
+    ]
   }
 ]

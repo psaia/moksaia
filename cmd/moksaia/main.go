@@ -18,9 +18,12 @@ const (
 	WebDir      = "docs/"
 )
 
+type Byline []string
+
 type Page struct {
 	Title     string
 	When      string
+	Audio     string
 	Where     string
 	Slug      string
 	Video     string
@@ -31,6 +34,7 @@ type Page struct {
 	Prev      string
 	NextTitle string
 	PrevTitle string
+	Who       []Byline
 }
 
 type AllPages struct {

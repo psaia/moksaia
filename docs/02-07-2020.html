@@ -27,20 +27,33 @@
     h1, h4, p { font-family: poynter-oldstyle-display, serif; font-weight: 400; font-style: normal; margin: 0 }
     h1 { margin-bottom: 6px; font-size: 25px; font-weight: 700 }
     h4 { font-size: 16px }
-    p { margin-bottom: 0; font-size: 16px; line-height: 1.2; margin-bottom: 15px }
-    .back, .forward { margin: 0 6px; text-decoration: none; color: #D96100; font-weight: 700; font-size: 13px; font-family: "Courier New", Courier, monospace }
-    .archives { margin: 8px 0 0; display: block; text-decoration: none; color: #777; font-weight: 700; font-size: 13px; font-family: "Courier New", Courier, monospace }
+    p { margin-bottom: 0; font-size: 21px; line-height: 1.2; margin-bottom: 15px }
 
     header { padding: 20px 20px 0; text-align: center }
 
     main { flex-grow: 2 }
     main .video-hold { margin: 20px auto; max-width: 562px }
     main video { width: 100%; height: auto; border-radius: 10px; overflow: hidden }
+    main audio { width: 100%; margin: 0 0 20px; height: 36px; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0 }
     main .chars { max-width: 500px; margin: 0 auto; padding: 0 20px }
     @media screen and (max-width: 600px) and (orientation: portrait) { main video { border-radius: 0 } }
 
-    footer { text-align: center; padding: 20px 0 }
-    footer aside { padding: 5px 0 }
+    footer .bylines,
+    footer .pagination,
+    footer .archive,
+    footer .brand-yo { padding: 9px 0 }
+    footer .bylines { background: #ffa472 }
+    footer .pagination { background: #ff9c59 }
+    footer .archive { background: #ff7e26 }
+    footer .brand-yo { background: #ff580f }
+
+    footer { color: white; text-align: center; margin: 40px 0 0; text-align: center }
+    footer .back, .forward { margin: 0 6px; font-family: "Courier New", Courier, monospace }
+    footer .archives { display: block; font-family: "Courier New", Courier, monospace }
+
+    footer a { color: white; text-decoration: none }
+    footer a:hover { color: black }
+    footer .bylines p { margin: 0; font-size: 13px; font-family: "Courier New", Courier, monospace }
     footer small { font-family: poynter-oldstyle-display-nar, serif; font-size: 13px; font-weight: 400 }
   </style>
 </head>
@@ -57,19 +70,34 @@
       </video>
     </div>
     <div class="chars">
+      
       <p>i grew up watching texas on the tv</p> <p>dirt roads crossing wide open lands</p> <p>small towns marked by a single gas station</p> <p>a place to be anonymous</p> <p>to rest&nbsp;</p> <p>after chasing lights and libations</p> <p>i could be anyone there</p> <p>the girl i always pictured</p> <p>brave, independent, free</p> <p>when i got to texas</p> <p>i tried to be all those things, and more</p> <p>a bartender on east 6th</p> <p>a waitress in sleepy alpine</p> <p>a stargazer under the marfa lights</p> <p>only to find</p> <p>i could be all those things,</p> <p>and more.</p>
     </div>
   </main>
 
   <footer>
-    <aside>
+    <aside class="bylines">
+      
+        <p itemscope itemtype="http://schema.org/Person">
+          Words by <a href="http://karenmok.com" itemprop="name">Karen Mok</a>
+        </p>
+      
+        <p itemscope itemtype="http://schema.org/Person">
+          Images by <a href="http://petesaia.com" itemprop="name">Pete Saia</a>
+        </p>
+      
+    </aside>
+    <aside class="pagination">
       <a class="back" href="02-04-2020.html" title="upward">« previous</a>
       <a class="forward" href="02-11-2020.html" title="freedom">next »</a>
+    </aside>
+    <aside class="archive">
       <a href="/archive.html" class="archives">view archives</a>
     </aside>
-    <small>moksaia</small>
+    <aside class="brand-yo">
+      <small>moksaia</small>
+    </aside>
   </footer>
-
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156821344-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
