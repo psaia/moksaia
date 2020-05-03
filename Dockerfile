@@ -1,1 +1,1 @@
-FROM alpine:lastest
+FROM alpine:3.7
