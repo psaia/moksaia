@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"strings"
 	"text/template"
 
 	strip "github.com/grokify/html-strip-tags-go"
@@ -96,7 +97,7 @@ func main() {
 		pages[0].PrevTitle = pages[1].Title
 	}
 
-	pages[0].BodyText = strip.StripTags(pages[0].Body)
+	pages[0].BodyText = strip.StripTags(strings.ReplaceAll(pages[0].Body, "\"", "&quot;"))
 
 	createPage(archiveTpl, &pages, "archive.html")
 	createPage(poemTpl, &pages[0], "index.html")
@@ -114,7 +115,7 @@ func main() {
 			p.PrevTitle = pages[idx+1].Title
 		}
 
-		p.BodyText = strip.StripTags(p.Body)
+		p.BodyText = strip.StripTags(strings.ReplaceAll(p.Body, "\"", "&quot;"))
 
 		createPage(poemTpl, p, p.Slug)
 	}
